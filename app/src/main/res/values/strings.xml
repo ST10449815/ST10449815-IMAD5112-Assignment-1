@@ -4,4 +4,5 @@
     <string name="suggest_meals">Suggest Meals</string>
     <string name="time_of_day">Time Of Day</string>
     <string name="hera_s_meal_suggestion_app">Hera\'s Meal Suggestion App</string>
+    <string name="clear">Clear</string>
 </resources>

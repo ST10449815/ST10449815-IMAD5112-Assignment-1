@@ -24,28 +24,36 @@ class MainActivity : AppCompatActivity() {
         val editTextDay = findViewById<EditText>(R.id.editTextDay)
         val textViewResult = findViewById<TextView>(R.id.textViewResult)
         val buttonRecommend = findViewById<Button>(R.id.buttonRecommend)
-      // The button will display meal suggestions when the user enters the time of the day
+        val buttonReset = findViewById<Button>(R.id.buttonReset) // Reset Button
+
+        // The button will display meal suggestions when the user enters the time of the day
         buttonRecommend.setOnClickListener {
             val day = editTextDay.text.toString().trim().lowercase()
             var meal = ""
 
-            if (day == "Breakfast") {
+            if (day == "breakfast") {
                 meal = "Eggs and bacon with toast"
-            } else if (day == "Mid-Morning Snack") {
+            } else if (day == "mid-morning snack") {
                 meal = "Yoghurt"
-            } else if (day == "Lunch") {
+            } else if (day == "lunch") {
                 meal = "Chicken Pizza"
-            } else if (day == "Afternoon Snack") {
+            } else if (day == "afternoon snack") {
                 meal = "Fruit Salad"
-            } else if (day == "Dinner") {
+            } else if (day == "dinner") {
                 meal = "Chicken and Mushroom Pasta"
-            } else if (day == "Dessert") {
+            } else if (day == "dessert") {
                 meal = "Creme Brulee"
             } else {
                 meal = "Invalid time of day! Please enter a valid time of day"
             }
             textViewResult.text = meal
+
+            // Reset Button Logic
+            buttonReset.setOnClickListener {
+                editTextDay.text.clear() // Clear input field
+                textViewResult.text = "" } // Clear result
         }
     }
 }
-      // This will result in the text view and edit text box being reset
+
+
