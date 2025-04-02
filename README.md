@@ -13,4 +13,7 @@ The purpose of the app is to help Hera decide what to eat on busy days based on 
  I had used “if” statements to determine which meals to suggest.
  I added color to the background and buttons of the app and changed the fonts to ensure the app looked more appealing. 
 
+Github Link: https://github.com/ST10449815/ST10449815-IMAD5112-Assignment-1.git 
+
+Youtube Link: https://youtube.com/shorts/7AMgBa3ujl8?si=BwITSAzSEA_fwzIs 
  
