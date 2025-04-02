@@ -1,3 +1,7 @@
+![Screenshot 2025-04-02 171205](https://github.com/user-attachments/assets/399a70f4-2ded-4473-a505-90bd8b286459)
+![Screenshot 2025-04-02 171150](https://github.com/user-attachments/assets/8659955c-fba8-4bee-a33b-869beeea5dcc)
+![Screenshot 2025-04-02 171132](https://github.com/user-attachments/assets/02eb02ea-3be1-4cc5-9c73-840b49b23398)
+![Screenshot 2025-04-02 171114](https://github.com/user-attachments/assets/97528e24-461e-4187-ba5d-4357b83b8f98)
 REPORT: 
 
 The purpose of the app is to help Hera decide what to eat on busy days based on the time of the day. 
